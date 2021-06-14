@@ -3,13 +3,13 @@ using namespace std;
 
 int main()
 {
-    char operatorx;
+    char operator1;
     double num1, num2;
     cout << "Enter the Operator";
-    cin >> operatorx;
+    cin >> operator1;
     cout << "Enter two number one by one ";
     cin >> num1 >> num2;
-    switch (operatorx)
+    switch (operator1)
     {
     case '+':
         cout << num1 << "+" << num2 << " = " << (num1 + num2);
@@ -31,7 +31,7 @@ int main()
         }
         break;
     default:
-        cout << operatorx << "This is not a valid Operator";
+        cout << operator1 << "This is not a valid Operator";
     }
     return 0;
 }
